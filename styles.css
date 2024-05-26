@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: rgb(15, 15, 15);
+}
+
+.content{
+  position: relative;
+}
+
+
+
+.draw{
+  position: absolute;
+  z-index: 1;
+
+}
+
+.imgcontainer{
+  z-index: 1000 !important;
+  margin-top: -20px;
+  position: absolute;
+  user-select: none;
+  
+}
